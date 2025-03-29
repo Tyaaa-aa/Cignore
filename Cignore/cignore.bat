@@ -308,6 +308,10 @@ echo %CYAN%[~] Generating %FILE%%RESET%
     
     echo # ===== General Development =====
     echo .git
+    echo .history
+    echo .env
+    echo .env*
+    echo .env.*
     echo .svn
     echo .vscode
     echo .idea
@@ -316,6 +320,10 @@ echo %CYAN%[~] Generating %FILE%%RESET%
     echo build
     echo *.log
     echo *.bak
+    echo .cache/
+    echo .output/
+    echo *.lock
+    echo *.tmp
     echo.
     
     if !WEB_MODE!==1 (
@@ -329,6 +337,11 @@ echo %CYAN%[~] Generating %FILE%%RESET%
         echo .output/
         echo *.lock
         echo bun.lockb
+        echo yarn.lock
+        echo .yarn
+        echo .pnp
+        echo .pnp.js/
+        echo .pnp/
         echo.
     )
     
