@@ -116,3 +116,11 @@ Found a bug? Want to add detection for a new project type?
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+
+
+Cursor ignored files: https://docs.cursor.com/context/ignore-files#default-indexing-ignore-files
+
+"Note that these default files only apply to indexing, not to other AI features." - Cursor
+
+I personally don't like that so I made this tool. I know there is no way I can know for sure but this just gives me some assurance. A *vibe* if you will.
