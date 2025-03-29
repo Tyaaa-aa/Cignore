@@ -287,13 +287,6 @@ echo.
 call :create_file ".cursorignore"
 call :create_file ".cursorindexingignore"
 
-:: Create .history
-mkdir .history 2>nul && (
-    echo %GREEN%[+] Created .history directory%RESET%
-) || (
-    echo %YELLOW%[!] .history exists%RESET%
-)
-
 echo.
 echo %GREEN%[+] Configuration complete!%RESET%
 exit /b 0
