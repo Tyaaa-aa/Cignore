@@ -1,0 +1,2 @@
+# Cignore
+ Cursor Ignore Tool
